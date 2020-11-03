@@ -767,11 +767,13 @@ header {
   font-size: 16px;
   text-align: center;
   color: #333333;
+  white-space: nowrap;
 }
 .package-options-value-white {
   font-size: 16px;
   text-align: center;
   color: #fff;
+  white-space: nowrap;
 }
 .user-payment {
   font-weight: bold;
@@ -1069,18 +1071,26 @@ header {
 }
 
 /* !!!!!!!!CALC!!!!!!!!!!!!! */
+.calc-step-one {
+  background: linear-gradient(0deg, #e9f1f7 5%, rgba(233, 241, 247, 0) 100%);
+}
 .calc-header {
   border-bottom: 10px solid #e5eaed;
 }
+.title-span {
+  font-size: 0.875em;
+  line-height: 120%;
+  color: #2b2b6b;
+}
 .calc-h4 {
   font-weight: bold;
-  font-size: 18px;
+  font-size: 1.125em;
   line-height: 130%;
   color: #2b2b6b;
 }
 .calc-h6 {
   font-weight: bold;
-  font-size: 13px;
+  font-size: 0.8125em;
   line-height: 120%;
   color: #2d3e50;
 }
@@ -1089,4 +1099,63 @@ header {
   background: #f1f1f1;
   border: 1px solid #dfe2e4;
   border-radius: 3px;
+  font-size: 1em;
+  line-height: 130%;
+  color: #6d747d;
+  appearance: none; /* remove arrow        */
+  -webkit-appearance: none; /* remove arrow Chrome */
+  -moz-appearance: none; /* remove arrow FF     */
+  background-image: url(../img/svg/Vector\ 4.svg);
+  background-position: top 50% right 10px;
+  background-repeat: no-repeat;
+  background-size: 12px;
+}
+.calc-select:hover {
+  box-shadow: 0px 0px 5px rgb(190, 188, 188);
+}
+.calc-step-two {
+  background: #e9f1f7;
+}
+.carousel-title-h2 {
+  font-size: 2.25em;
+}
+.order-calc {
+  width: 80%;
+  padding: 10px;
+}
+.calc-form-label {
+  background: #f1f1f1;
+  border: 1px solid #dfe2e4;
+  box-sizing: border-box;
+  border-radius: 3px;
+}
+.all-price {
+  box-shadow: 0px 20px 90px rgba(165, 168, 170, 0.4);
+  border-radius: 20px;
+}
+.calculate-change {
+  background: #fff;
+}
+
+.calc-chose-row {
+  background: #ffffff;
+  box-shadow: 0px 20px 90px rgba(165, 168, 170, 0.4);
+  border-radius: 20px;
+}
+.calc-step-two {
+  display: none;
+}
+.calc-step-3 {
+  display: none;
+}
+.calc-footer {
+  border-top: 10px solid #e5eaed;
+}
+.calc-footer-container {
+  border-bottom: 1px solid #bdbdbd;
+}
+
+.calc-step-4 {
+  display: none;
+  background: linear-gradient(0deg, #e9f1f7 0%, rgba(233, 241, 247, 0) 100%);
 }
